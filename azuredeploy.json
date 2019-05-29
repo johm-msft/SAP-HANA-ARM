@@ -7,7 +7,7 @@
             "metadata": {
                 "description": "Version of HANA"
             },
-            "defaultValue": "SAP HANA Platform Edition 2.0 SPS02 (51052325)",
+            "defaultValue": "SAP HANA PLATFORM EDITION 2.0 SPS04 REV40 (51053787)",
             "allowedValues": [
                 "SAP HANA PLATFORM EDITION 2.0 SPS01 REV 10 (51052030)",
                 "SAP HANA PLATFORM EDITION 2.0 SPS02 (51052325)",
@@ -37,7 +37,7 @@
             "metadata": {
                 "description": "VM Size"
             },
-            "defaultValue": "Standard_GS5 (448 GB, Certified)",
+            "defaultValue": "Standard_M128ms (3.8 TB, Certified)",
             "allowedValues": [
                 "Standard_GS5 (448 GB, Certified)",
                 "Standard_M64s (1 TB, Certified)",
@@ -116,10 +116,11 @@
             "metadata": {
                 "description": "Operating system for HANA Machine"
             },
-            "defaultValue": "SLES for SAP 12 SP3",
+            "defaultValue": "SLES for SAP 12 SP4",
             "allowedValues": [
                 "SLES for SAP 12 SP3",
-		        "SLES for SAP 12 SP2",
+		"SLES for SAP 12 SP2",
+		"SLES for SAP 12 SP4"
                 "RHEL 7.2 for SAP HANA"
             ]
         },
